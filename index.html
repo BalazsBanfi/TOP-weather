@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A solution to the The Odin Project Weather App project.
+    "
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="weather.png" />
+    <script src="index.js" defer type="module"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Weather App</h1>
+      <form id="form" action="/" method="GET">
+        <h1>Add book to my library</h1>
+        <label for="search">Search</label>
+        <input
+          type="text"
+          id="search"
+          name="search"
+          placeholder="city.."
+          required
+          minlength="2"
+        />
+      </form>
+    </header>
+    <div class="container">
+      <div id="weather"></div>
+    </div>
+  </body>
+</html>
