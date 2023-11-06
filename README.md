@@ -1,7 +1,8 @@
-# TOP-weather
 # The Odin Project - Weather App
 
 This is a solution to the [The Odin Project Weather App project](https://www.theodinproject.com/lessons/node-path-javascript-weather-app). The task is to make a website with a search box for a city and show the weather in that location.
+
+Attention: The program will not work without the API KEY, what is not pushed to the public repository.
 
 The Odin Project challenges help you improve your coding skills by building realistic projects.
 
