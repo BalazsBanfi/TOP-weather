@@ -16,20 +16,24 @@
   <body>
     <header>
       <h1>Weather App</h1>
-      <form id="form" action="/" method="GET">
-        <label for="search">Search</label>
-        <input
-          type="text"
-          id="search"
-          name="search"
-          placeholder="city.."
-          required
-          minlength="2"
-        />
-      </form>
+      <label for="search">Search</label>
+      <input
+        type="text"
+        id="search"
+        name="search"
+        placeholder="city.."
+        required
+        minlength="2"
+      />
     </header>
     <div class="container">
-      <div id="weather"></div>
+      <div id="weather">
+        <h2 id="city"></h2>
+        <h3 id="temp"></h3>
+        <p id="feels"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
     </div>
   </body>
 </html>

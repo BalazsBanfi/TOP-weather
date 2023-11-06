@@ -56,9 +56,7 @@ header * {
 **********************/
 
 .container {
-  min-width: 400px;
   max-width: 100%;
-  min-height: 500px;
   height: auto;
   margin-top: 2rem;
   padding: 0.5rem 0.5rem;
@@ -69,18 +67,11 @@ header * {
   overflow: hidden;
 }
 
+.container * {
+  margin: 0.5rem;
+}
+
 /************************
 ***Media query section***
 ************************/
 
-@media screen and (min-width: 500px) {
-  .container {
-    min-width: 450px;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .container {
-    min-width: 700px;
-  }
-}
