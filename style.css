@@ -1,0 +1,86 @@
+:root {
+  --bodyBg: rgb(38, 89, 106);
+  --headBg: rgb(8, 40, 48);
+  --headC: rgb(123, 185, 204);
+  --borderC: rgb(9, 19, 22);
+  --lightC: rgb(129, 159, 161);
+  --darkBg: rgb(29, 59, 61);
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("roboto-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*****************
+  ***Body section***
+  ******************/
+
+body {
+  text-align: center;
+  font-size: 15px;
+  font-family: Roboto, sans-serif;
+  color: var(--lightC);
+  display: grid;
+  place-items: center;
+  background-color: var(--bodyBg);
+}
+
+/*******************
+***Header section***
+*******************/
+
+header {
+  min-width: 100%;
+  background-color: var(--headBg);
+  color: var(--headC);
+  padding: 0.5rem;
+}
+
+header * {
+  padding: 0.5rem;
+}
+
+/**********************
+***Container section***
+**********************/
+
+.container {
+  min-width: 400px;
+  max-width: 100%;
+  min-height: 500px;
+  height: auto;
+  margin-top: 2rem;
+  padding: 0.5rem 0.5rem;
+  background: var(--darkBg);
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/************************
+***Media query section***
+************************/
+
+@media screen and (min-width: 500px) {
+  .container {
+    min-width: 450px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .container {
+    min-width: 700px;
+  }
+}
