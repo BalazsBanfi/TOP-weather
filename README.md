@@ -30,7 +30,7 @@ The Odin Project challenges help you improve your coding skills by building real
 
 ## My process
 
-API, fetch, promises
+API, asyc, await, fetch, promises
 
 ### Built with
 
